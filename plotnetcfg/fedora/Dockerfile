@@ -1,4 +1,4 @@
-FROM fedora:31
+FROM fedora:33
 
 
 RUN dnf install -y plotnetcfg rsync procps-ng && dnf clean all
