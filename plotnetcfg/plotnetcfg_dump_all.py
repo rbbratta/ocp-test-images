@@ -26,7 +26,7 @@ spec:
   containers:
   - command: ["/bin/bash"]
     args: ["/dump-plotnetcfg.sh"]
-    image: rbbratta/plotnetcfg-debug:fedora31
+    image: quay.io/rbrattai/ocp-test-images:master
     imagePullPolicy: Always
     name: {pod_name}
     resources: {{}}

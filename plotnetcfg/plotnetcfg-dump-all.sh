@@ -34,7 +34,7 @@ spec:
   containers:
   - command: ["/bin/bash"]
     args: ["/dump-plotnetcfg.sh"]
-    image: quay.io/rbrattai/ocp-test-images/master:latest
+    image: quay.io/rbrattai/ocp-test-images:master
     imagePullPolicy: Always
     name: plotnetcfg-debug-${node//./-}
     resources: {}
